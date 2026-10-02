@@ -9,7 +9,7 @@ export default function Projects() {
   return (
     <section id="projeler" className="section">
       <div className="container">
-        <SectionTitle index="03" eyebrow="projeler" title="Geliştirdiğim bazı işler" />
+        <SectionTitle index="03" eyebrow="projeler" title="Geliştirdiğim bazı projeler" />
         <div className="projects-grid">
           {projects.map((p) => (
             <article key={p.name} className={`card project reveal ${p.featured ? 'featured' : ''}`}>

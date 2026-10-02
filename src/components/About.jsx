@@ -6,7 +6,7 @@ export default function About() {
   return (
     <section id="hakkimda" className="section">
       <div className="container">
-        <SectionTitle index="01" eyebrow="hakkımda" title="Kod yazarken kullanıcıyı düşünürüm." />
+        <SectionTitle index="01" eyebrow="hakkımda" title="Mobil ve web teknolojileri odaklı, modern, kullanıcı dostu ve sürdürülebilir projeler geliştiriyorum." />
         <div className="about-grid">
           <div className="about-text reveal">
             {profile.about.map((p) => (

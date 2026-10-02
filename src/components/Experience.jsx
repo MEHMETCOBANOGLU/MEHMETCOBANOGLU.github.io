@@ -6,7 +6,7 @@ export default function Experience() {
   return (
     <section id="deneyim" className="section">
       <div className="container">
-        <SectionTitle index="02" eyebrow="deneyim" title="Nerelerde çalıştım?" />
+        <SectionTitle index="02" eyebrow="deneyim" title="Kariyer yolculuğum" />
         <ol className="timeline">
           {experience.map((job) => (
             <li key={job.company} className={`timeline-item reveal ${job.current ? 'current' : ''}`}>

@@ -1,7 +1,7 @@
 export const profile = {
   name: 'Mehmet Çobanoğlu',
   title: 'Software Developer',
-  roles: ['Flutter Developer', 'Mobile Developer', 'React Developer', 'Software Developer'],
+  roles: ['Flutter Developer', 'Mobile Application Developer', 'Software Developer'],
   location: 'Konya, Türkiye',
   email: 'mehmett_ceng@hotmail.com',
   phone: '+90 544 380 0148',
@@ -18,7 +18,7 @@ export const profile = {
 export const stats = [
   { value: '1+', label: 'Yıl profesyonel deneyim' },
   { value: '3', label: 'Şirket deneyimi' },
-  { value: '5+', label: 'Mobil & web proje' },
+  { value: '6+', label: 'Mobil & web proje' },
   { value: '2', label: 'Platform: iOS & Android' },
 ]
 
@@ -35,9 +35,12 @@ export const experience = [
       'Dio ile RESTful API entegrasyonları; kimlik doğrulama, token yönetimi, hata yönetimi ve veri serileştirme süreçlerini güvenli bir yapıda kurguladım.',
       'İnsan Kaynakları, Stok Yönetimi, Akademi, Personel Yönetimi, Puantaj, İzin Yönetimi ve Bildirimler gibi modüllerin tasarım ve geliştirmesinde görev aldım.',
       'Yeniden kullanılabilir UI bileşenleri, ortak servis yapıları ve modüler mimari bileşenleri geliştirdim.',
+      'Mevcut modülleri geliştirmeye ve yeni özellikler eklemeye devam ediyorum.',
       'React ile geliştirilen web arayüzünün geliştirilmesine destek vererek mobil ve web ekipleri arasında iş birliği sağladım.',
+      'Trion uygulamasında güvenlik, arayüz (UI/UX) ve Firebase push bildirimlerini geliştiriyorum.',
+      'Trion’un App Store ve Google Play yayın süreçlerini yönetiyorum.',
     ],
-    tags: ['Flutter', 'Dart', 'BLoC', 'Dio', 'REST API', 'React'],
+    tags: ['Flutter', 'Dart', 'BLoC', 'Dio', 'REST API', 'Firebase', 'React'],
   },
   {
     role: 'Flutter Developer – Stajyer',
@@ -72,6 +75,18 @@ export const projects = [
     links: [
       { label: 'App Store', href: 'https://apps.apple.com/us/app/sezin-smart/id6757295771', type: 'apple' },
       { label: 'Play Store', href: 'https://play.google.com/store/apps/details?id=com.sezin.smartmobile', type: 'play' },
+    ],
+  },
+  {
+    name: 'Trion',
+    subtitle: 'Kurumsal İş Süreçleri Platformu',
+    description:
+      'İhale, envanter ve bakım, akademi, insan kaynakları ve bildirimleri telefon ile tablette bir araya getiren kurumsal mobil platform. Güvenlik, arayüz ve Firebase bildirimlerini geliştiriyor; mağaza yayınlarını yönetiyorum.',
+    tags: ['Flutter', 'Dart', 'Firebase', 'iOS & Android'],
+    featured: true,
+    links: [
+      { label: 'App Store', href: 'https://apps.apple.com/tr/app/trion/id6802638289?l=tr', type: 'apple' },
+      { label: 'Play Store', href: 'https://play.google.com/store/apps/details?id=com.sezintip.trion', type: 'play' },
     ],
   },
   {
